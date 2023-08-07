@@ -18,7 +18,7 @@ public class Task_1 {
                 break;
             } catch (InputMismatchException e) {
                 System.out.println("Некорректный ввод. Пожалуйста, введите дробное число.");
-                scanner.nextLine(); // Clear the scanner buffer
+                scanner.nextLine();
             }
         }
         

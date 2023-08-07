@@ -6,7 +6,7 @@ public class Task_3 {
             System.out.println(a / b);
             printSum(23, 234);
             int[] abc = {1, 2};
-            // abc[3] = 9; данная строка не нужна
+            // abc[3] = 9; данная строка не нужна или же можно добавить элемент при помощи append (abc = append(abc, 5);)
         } catch (IndexOutOfBoundsException ex) {
             System.out.println("Массив выходит за пределы своего размера!");
         } catch (NullPointerException ex) {
